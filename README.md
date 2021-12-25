@@ -16,10 +16,10 @@
 
 ---
 ### God Apple
-![godapple](https://i.imgur.com/Q6Igc52.png)
+![godapple](https://i.imgur.com/32UlS5h.png)
 
 ### Bedrock
-![bedrock](https://i.imgur.com/32UlS5h.png)
+![bedrock](https://i.imgur.com/Q6Igc52.png)
 </details>
 
 <details>
