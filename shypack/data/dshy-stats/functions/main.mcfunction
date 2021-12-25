@@ -1,19 +1,19 @@
 #switchScoreboard
-scoreboard players add !ticksDelay ticksDelay 1
-execute if score !ticksDelay ticksDelay matches 1200 run scoreboard players add !ticksDelay switchScoreboard 1
-execute if score !ticksDelay ticksDelay matches 1200 run scoreboard players set !ticksDelay ticksDelay 0
+scoreboard players add !stats ticksDelay 1
+execute if score !stats ticksDelay matches 1200 run scoreboard players add !stats switchScoreboard 1
+execute if score !stats ticksDelay matches 1200 run scoreboard players set !stats ticksDelay 0
 
-execute if score !ticksDelay switchScoreboard matches 0 run scoreboard objectives setdisplay sidebar oresMined
-execute if score !ticksDelay switchScoreboard matches 1 run scoreboard objectives setdisplay sidebar score
-execute if score !ticksDelay switchScoreboard matches 2 run scoreboard objectives setdisplay sidebar kills
-execute if score !ticksDelay switchScoreboard matches 3 run scoreboard objectives setdisplay sidebar level
-execute if score !ticksDelay switchScoreboard matches 4 run scoreboard objectives setdisplay sidebar pearlsUsed
-execute if score !ticksDelay switchScoreboard matches 5 run scoreboard objectives setdisplay sidebar hoursPlayed
-execute if score !ticksDelay switchScoreboard matches 6 run scoreboard objectives setdisplay sidebar deaths
-execute if score !ticksDelay switchScoreboard matches 7 run scoreboard objectives setdisplay sidebar brokenThings
+execute if score !stats switchScoreboard matches 0 run scoreboard objectives setdisplay sidebar oresMined
+execute if score !stats switchScoreboard matches 1 run scoreboard objectives setdisplay sidebar score
+execute if score !stats switchScoreboard matches 2 run scoreboard objectives setdisplay sidebar kills
+execute if score !stats switchScoreboard matches 3 run scoreboard objectives setdisplay sidebar level
+execute if score !stats switchScoreboard matches 4 run scoreboard objectives setdisplay sidebar pearlsUsed
+execute if score !stats switchScoreboard matches 5 run scoreboard objectives setdisplay sidebar hoursPlayed
+execute if score !stats switchScoreboard matches 6 run scoreboard objectives setdisplay sidebar deaths
+execute if score !stats switchScoreboard matches 7 run scoreboard objectives setdisplay sidebar brokenThings
 
-execute if score !ticksDelay switchScoreboard matches 8 run tellraw @a ["",{"text":"[","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"discord","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"] ","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"Shyland;","bold":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"(clique para entrar)","italic":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}}]
-execute if score !ticksDelay switchScoreboard matches 8 run scoreboard players set !ticksDelay switchScoreboard 0
+execute if score !stats switchScoreboard matches 8 run tellraw @a ["",{"text":"[","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"discord","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"] ","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"Shyland;","bold":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"(clique para entrar)","italic":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}}]
+execute if score !stats switchScoreboard matches 8 run scoreboard players set !stats switchScoreboard 0
 
 #oresMined
 execute as @a if score @s oresMined.coal matches 1 run scoreboard players add @s oresMined 1
