@@ -35,4 +35,4 @@ execute if score !item_cleaner every5Minutes matches 6000 run execute as @a run 
 execute if score !item_cleaner every5Minutes matches 6000 run execute as @a run tellraw @a ["",{"text":"[","color":"gold"},{"text":"ItemCleaner","bold":true,"color":"dark_purple"},{"text":"] ","color":"gold"},{"text":"Chão ","bold":true,"color":"red"},{"text":"limpo","bold":true,"color":"dark_red"},{"text":"! ","bold":true,"color":"red"},{"text":"Próxima limpeza daqui","bold":true,"color":"light_purple"},{"text":" ","bold":true,"color":"red"},{"text":"5min","bold":true,"underlined":true,"color":"gold"},{"text":"!","bold":true,"color":"light_purple"}]
 
 #reset
-execute if score !item_cleaner every5Minutes matches 6000 run scoreboard players set @s every5Minutes 0
+execute if score !item_cleaner every5Minutes matches 6000 run scoreboard players set !item_cleaner every5Minutes 0
