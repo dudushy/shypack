@@ -1,4 +1,8 @@
 # first minecraft datapack experience
+**It contains:**
+> dshy-recipes
+> dshy-stats
+> dshy-item_cleaner
 
 ## Features:
 <details>
