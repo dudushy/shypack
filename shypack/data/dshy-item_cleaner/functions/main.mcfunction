@@ -21,7 +21,7 @@ execute as @a if score @s every5Minutes matches 5980 run execute as @a run tellr
 
 #kill
 execute as @a if score @s every5Minutes matches 6000 run execute as @a run kill @e[type=item]
-execute as @a if score @s every5Minutes matches 6000 run execute as @a run tellraw @a ["",{"text":"Chão ","bold":true,"color":"red"},{"text":"limpo","bold":true,"color":"dark_red"},{"text":"!","bold":true,"color":"red"}]
+execute as @a if score @s every5Minutes matches 6000 run execute as @a run tellraw @a ["",{"text":"Chão ","bold":true,"color":"red"},{"text":"limpo","bold":true,"color":"dark_red"},{"text":"! ","bold":true,"color":"red"},{"text":"Proxima limpeza daqui","bold":true,"color":"light_purple"},{"text":" ","bold":true,"color":"red"},{"text":"5min","bold":true,"underlined":true,"color":"gold"},{"text":"!","bold":true,"color":"light_purple"}]
 
 #reset
 execute as @a if score @s every5Minutes matches 6000 run scoreboard players set @s every5Minutes 0
