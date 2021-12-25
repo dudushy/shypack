@@ -4,6 +4,7 @@
 <details>
 <summary>Recipes</summary>
 
+---
 1. [God Apple](#godapple)
 2. [Bedrock](#bedrock)
 
@@ -18,6 +19,7 @@
 <details>
 <summary>Stats</summary>
 
+---
 1. [Broken Things](#broken-things)
 2. [Ores Mined](#ores-mined)
 3. [Score](#score)
@@ -80,6 +82,7 @@
 <details>
 <summary>Item Cleaner</summary>
 
+---
 ![item_cleaner](https://i.imgur.com/KYr97aA.png)
 <br>
 
