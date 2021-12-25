@@ -1,5 +1,5 @@
 # first minecraft datapack experience
-**It contains:**
+## It contains:
 > dshy-recipes
 
 > dshy-stats
