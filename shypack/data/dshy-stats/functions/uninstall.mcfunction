@@ -1,9 +1,10 @@
-#switchScoreboard
+#remove switchScoreboard
 scoreboard objectives remove switchScoreboard
 
+#remove ticksDelay
 scoreboard objectives remove ticksDelay
 
-#oresMined
+#remove oresMined
 scoreboard objectives remove oresMined
 
 scoreboard objectives remove oresMined.coal
@@ -17,29 +18,29 @@ scoreboard objectives remove oresMined.quartz
 scoreboard objectives remove oresMined.n_gold
 scoreboard objectives remove oresMined.debri
 
-#score
+#remove score
 scoreboard objectives remove score
-
 scoreboard objectives remove score.aux
 
-#kills
+#remove kills
 scoreboard objectives remove kills
 
-#level
+#remove level
 scoreboard objectives remove level
 
-#pearlsUsed
+#remove pearlsUsed
 scoreboard objectives remove pearlsUsed
 
-#timePlayed
+#remove timePlayed
 scoreboard objectives remove hoursPlayed
 
+#remove ticksPlayed
 scoreboard objectives remove ticksPlayed
 
-#deaths
+#remove deaths
 scoreboard objectives remove deaths
 
-#brokenThings
+#remove brokenThings
 scoreboard objectives remove brokenThings
 
 scoreboard objectives remove brokenT.shovelW
@@ -109,5 +110,5 @@ scoreboard objectives remove brokenT.bootsD
 scoreboard objectives remove brokenT.bootsN
 scoreboard objectives remove brokenT.bootsC
 
-#end
+#end message
 say §ddshy-stats: §c§lDESABILITADO

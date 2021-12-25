@@ -1,8 +1,8 @@
-#hoursPlayed
+#remove hoursPlayed
 scoreboard objectives remove hoursPlayed
 
-#ticksPlayed
+#remove ticksPlayed
 scoreboard objectives remove ticksPlayed
 
-#end
+#end message
 say §ddshy-timer: §c§lDESABILITADO

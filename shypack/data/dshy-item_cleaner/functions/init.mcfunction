@@ -1,5 +1,5 @@
 #every5Minutes
 scoreboard objectives add every5Minutes dummy
 
-#end
+#end message
 say §ddshy-item_cleaner: §a§lHABILITADO

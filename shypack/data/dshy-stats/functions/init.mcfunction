@@ -1,9 +1,10 @@
-#switchScoreboard
+#create switchScoreboard
 scoreboard objectives add switchScoreboard dummy
 
+#create ticksDelay
 scoreboard objectives add ticksDelay dummy
 
-#oresMined
+#create oresMined
 scoreboard objectives add oresMined dummy
 
 scoreboard objectives add oresMined.coal minecraft.mined:minecraft.coal_ore
@@ -17,32 +18,30 @@ scoreboard objectives add oresMined.quartz minecraft.mined:minecraft.nether_quar
 scoreboard objectives add oresMined.n_gold minecraft.mined:minecraft.nether_gold_ore
 scoreboard objectives add oresMined.debri minecraft.mined:minecraft.ancient_debris
 
-#score
+#create score
 scoreboard objectives add score dummy
-
 scoreboard objectives add score.aux dummy
 
-#kills
+#create kills
 scoreboard objectives add kills totalKillCount
 
-#level
+#create level
 scoreboard objectives add level level
-
-scoreboard objectives add XP level
 scoreboard objectives setdisplay belowName XP
 
-#pearlsUsed
+#create pearlsUsed
 scoreboard objectives add pearlsUsed minecraft.used:minecraft.ender_pearl
 
-#timePlayed
+#create timePlayed
 scoreboard objectives add hoursPlayed dummy
 
+#create ticksPlayed
 scoreboard objectives add ticksPlayed dummy
 
-#deaths
+#create deaths
 scoreboard objectives add deaths deathCount
 
-#brokenThings
+#create brokenThings
 scoreboard objectives add brokenThings dummy
 
 scoreboard objectives add brokenT.shovelW minecraft.broken:minecraft.wooden_shovel
@@ -112,7 +111,7 @@ scoreboard objectives add brokenT.bootsD minecraft.broken:minecraft.diamond_boot
 scoreboard objectives add brokenT.bootsN minecraft.broken:minecraft.netherite_boots
 scoreboard objectives add brokenT.bootsC minecraft.broken:minecraft.chainmail_boots
 
-#health
+#create health
 scoreboard objectives add health health
 scoreboard objectives setdisplay list health
 
