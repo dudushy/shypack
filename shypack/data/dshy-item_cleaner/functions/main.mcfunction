@@ -1,8 +1,12 @@
 #count ticks
 scoreboard players add !item_cleaner every5Minutes 1
 
+#count total deaths
+scoreboard objectives add IC_totalDeaths deathCount
+
 #check if player died: set !item_cleaner score to -1
-execute as @a if score @s health matches 0 run scoreboard players set !item_cleaner every5Minutes -1
+execute as @a if score @s IC_totalDeaths matches 1 run scoreboard players set !item_cleaner every5Minutes -1
+execute as @a if score @s IC_totalDeaths matches 1 run scoreboard players set @s IC_totalDeaths 0
 
 #send message and reset timer
 execute as @a if score !item_cleaner every5Minutes matches -1 run tellraw @a ["",{"text":"Tempo de limpeza resetado, ","bold":true,"color":"light_purple"},{"selector":"@s","bold":true,"color":"aqua"},{"text":" morreu!","bold":true,"color":"light_purple"}]
