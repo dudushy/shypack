@@ -1,9 +1,9 @@
 {
-    "type": "minecraft:blasting",
+    "type": "minecraft:smoking",
     "ingredient": {
         "item": "minecraft:rotten_flesh"
     },
     "result": "minecraft:leather",
     "experience": 2,
-    "cookingtime": 200
+    "cookingtime": 100
 }

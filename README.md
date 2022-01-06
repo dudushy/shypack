@@ -11,6 +11,7 @@
 ---
 1. [God Apple](#godapple)
 2. [Bedrock](#bedrock)
+3. [Leather](#leather)
 
 ---
 ### God Apple
@@ -18,6 +19,9 @@
 
 ### Bedrock
 ![bedrock](https://i.imgur.com/Q6Igc52.png)
+
+### Leather
+![leather]()
 </details>
 
 <details>
