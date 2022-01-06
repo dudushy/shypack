@@ -1,3 +1,0 @@
-say §7teleportando entidades de §d[§a@p[tag=ORIGEM,limit=1]§d]§7 para §d[§b@p[tag=DESTINO,limit=1]§d]§7...
-execute at @p[tag=ORIGEM,limit=1] run tp @e[distance=..2,type=!minecraft:player] @p[tag=DESTINO,limit=1]
-say §7teleporte finalizado!

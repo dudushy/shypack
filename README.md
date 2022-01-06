@@ -4,8 +4,6 @@
 
 > dshy-stats
 
-> dshy-item_cleaner
-
 ## Features:
 <details>
 <summary>Recipes</summary>
@@ -83,21 +81,4 @@
 <br>
 
 *Display the total number of deaths by each player.*
-</details>
-
-<details>
-<summary>Item Cleaner</summary>
-
----
-![item_cleaner](https://i.imgur.com/KYr97aA.png)
-<br>
-
-*Every 5min (five minutes), all droped items will be deleted.*
-<br>
-
-![item_cleaner2](https://i.imgur.com/a6CgzoG.png)
-<br>
-
-*The timer resets if a player dies.*
-
 </details>

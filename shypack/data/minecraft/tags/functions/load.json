@@ -1,8 +1,6 @@
 {
   "values":[
 	"dshy-stats:init",
-  "dshy-item_cleaner:init",
-  "dshy-timer:init",
   "dshy-recipes:init"
   ]
 }

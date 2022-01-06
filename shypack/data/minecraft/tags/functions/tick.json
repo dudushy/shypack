@@ -1,7 +1,5 @@
 {
   "values":[
-	"dshy-stats:main",
-  "dshy-item_cleaner:main",
-  "dshy-timer:main"
+	"dshy-stats:main"
   ]
 }
