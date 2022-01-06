@@ -21,7 +21,8 @@
 ![bedrock](https://i.imgur.com/Q6Igc52.png)
 
 ### Leather
-![leather]()
+![leather](https://i.imgur.com/kiY0Ezt.png)
+
 </details>
 
 <details>
