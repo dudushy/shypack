@@ -1,7 +1,5 @@
 {
     "values":[
-    "dshy-stats:uninstall",
-    "dshy-item_cleaner:uninstall",
-    "dshy-timer:uninstall"
+    "dshy-stats:uninstall"
     ]
 }
