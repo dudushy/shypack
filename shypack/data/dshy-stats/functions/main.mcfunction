@@ -17,26 +17,44 @@ execute if score !stats switchScoreboard matches 8 run scoreboard players set !s
 
 #oresMined
 execute as @a if score @s oresMined.coal matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepCoal matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.iron matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepIron matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.gold matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepGold matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.redstn matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepRedstn matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.lapis matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepLapis matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.dmnd matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepDmnd matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.emrld matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepEmrld matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.quartz matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.n_gold matches 1 run scoreboard players add @s oresMined 1
 execute as @a if score @s oresMined.debri matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.copper matches 1 run scoreboard players add @s oresMined 1
+execute as @a if score @s oresMined.deepCopper matches 1 run scoreboard players add @s oresMined 1
 
 execute as @a if score @s oresMined.coal matches 1 run scoreboard players set @s oresMined.coal 0
+execute as @a if score @s oresMined.deepCoal matches 1 run scoreboard players set @s oresMined.deepCoal 0
 execute as @a if score @s oresMined.iron matches 1 run scoreboard players set @s oresMined.iron 0
+execute as @a if score @s oresMined.deepIron matches 1 run scoreboard players set @s oresMined.deepIron 0
 execute as @a if score @s oresMined.gold matches 1 run scoreboard players set @s oresMined.gold 0
+execute as @a if score @s oresMined.deepGold matches 1 run scoreboard players set @s oresMined.deepGold 0
 execute as @a if score @s oresMined.redstn matches 1 run scoreboard players set @s oresMined.redstn 0
+execute as @a if score @s oresMined.deepRedstn matches 1 run scoreboard players set @s oresMined.deepRedstn 0
 execute as @a if score @s oresMined.lapis matches 1 run scoreboard players set @s oresMined.lapis 0
+execute as @a if score @s oresMined.deepLapis matches 1 run scoreboard players set @s oresMined.deepLapis 0
 execute as @a if score @s oresMined.dmnd matches 1 run scoreboard players set @s oresMined.dmnd 0
+execute as @a if score @s oresMined.deepDmnd matches 1 run scoreboard players set @s oresMined.deepDmnd 0
 execute as @a if score @s oresMined.emrld matches 1 run scoreboard players set @s oresMined.emrld 0
+execute as @a if score @s oresMined.deepEmrld matches 1 run scoreboard players set @s oresMined.deepEmrld 0
 execute as @a if score @s oresMined.quartz matches 1 run scoreboard players set @s oresMined.quartz 0
 execute as @a if score @s oresMined.n_gold matches 1 run scoreboard players set @s oresMined.n_gold 0
 execute as @a if score @s oresMined.debri matches 1 run scoreboard players set @s oresMined.debri 0
+execute as @a if score @s oresMined.copper matches 1 run scoreboard players set @s oresMined.copper 0
+execute as @a if score @s oresMined.deepCopper matches 1 run scoreboard players set @s oresMined.deepCopper 0
 
 #score
 execute as @a store result score @s score.aux run data get entity @s Score

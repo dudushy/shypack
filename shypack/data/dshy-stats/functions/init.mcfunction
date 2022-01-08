@@ -8,15 +8,24 @@ scoreboard objectives add ticksDelay dummy
 scoreboard objectives add oresMined dummy
 
 scoreboard objectives add oresMined.coal minecraft.mined:minecraft.coal_ore
+scoreboard objectives add oresMined.deepCoal minecraft.mined:minecraft.deepslate_coal_ore
 scoreboard objectives add oresMined.iron minecraft.mined:minecraft.iron_ore
+scoreboard objectives add oresMined.deepIron minecraft.mined:minecraft.deepslate_iron_ore
 scoreboard objectives add oresMined.gold minecraft.mined:minecraft.gold_ore
+scoreboard objectives add oresMined.deepGold minecraft.mined:minecraft.deepslate_gold_ore
 scoreboard objectives add oresMined.redstn minecraft.mined:minecraft.redstone_ore
+scoreboard objectives add oresMined.deepRedstn minecraft.mined:minecraft.deepslate_redstone_ore
 scoreboard objectives add oresMined.lapis minecraft.mined:minecraft.lapis_ore
+scoreboard objectives add oresMined.deepLapis minecraft.mined:minecraft.deepslate_lapis_ore
 scoreboard objectives add oresMined.dmnd minecraft.mined:minecraft.diamond_ore
+scoreboard objectives add oresMined.deepDmnd minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add oresMined.emrld minecraft.mined:minecraft.emerald_ore
+scoreboard objectives add oresMined.deepEmrld minecraft.mined:minecraft.deepslate_emerald_ore
 scoreboard objectives add oresMined.quartz minecraft.mined:minecraft.nether_quartz_ore
 scoreboard objectives add oresMined.n_gold minecraft.mined:minecraft.nether_gold_ore
 scoreboard objectives add oresMined.debri minecraft.mined:minecraft.ancient_debris
+scoreboard objectives add oresMined.copper minecraft.mined:minecraft.copper_ore
+scoreboard objectives add oresMined.deepCopper minecraft.mined:minecraft.deepslate_copper_ore
 
 #create score
 scoreboard objectives add score dummy
