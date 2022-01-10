@@ -8,15 +8,25 @@ scoreboard objectives remove ticksDelay
 scoreboard objectives remove oresMined
 
 scoreboard objectives remove oresMined.coal
+scoreboard objectives remove oresMined.coal
+scoreboard objectives remove oresMined.deepCoal
 scoreboard objectives remove oresMined.iron
+scoreboard objectives remove oresMined.deepIron
 scoreboard objectives remove oresMined.gold
+scoreboard objectives remove oresMined.deepGold
 scoreboard objectives remove oresMined.redstn
+scoreboard objectives remove oresMined.deepRedstn
 scoreboard objectives remove oresMined.lapis
+scoreboard objectives remove oresMined.deepLapis
 scoreboard objectives remove oresMined.dmnd
+scoreboard objectives remove oresMined.deepDmnd
 scoreboard objectives remove oresMined.emrld
+scoreboard objectives remove oresMined.deepEmrld
 scoreboard objectives remove oresMined.quartz
 scoreboard objectives remove oresMined.n_gold
 scoreboard objectives remove oresMined.debri
+scoreboard objectives remove oresMined.copper
+scoreboard objectives remove oresMined.deepCopper
 
 #remove score
 scoreboard objectives remove score
