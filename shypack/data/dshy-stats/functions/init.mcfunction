@@ -5,7 +5,7 @@ scoreboard objectives add switchScoreboard dummy
 scoreboard objectives add ticksDelay dummy
 
 #create oresMined
-scoreboard objectives add oresMined dummy
+scoreboard objectives add oresMined dummy {"text":"Minérios Extraídos:","bold":true,"color":"blue"}
 
 scoreboard objectives add oresMined.coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add oresMined.deepCoal minecraft.mined:minecraft.deepslate_coal_ore
@@ -28,30 +28,29 @@ scoreboard objectives add oresMined.copper minecraft.mined:minecraft.copper_ore
 scoreboard objectives add oresMined.deepCopper minecraft.mined:minecraft.deepslate_copper_ore
 
 #create score
-scoreboard objectives add score dummy
+scoreboard objectives add score dummy {"text":"Pontuação:","bold":true,"color":"green"}
 scoreboard objectives add score.aux dummy
 
 #create kills
-scoreboard objectives add kills totalKillCount
+scoreboard objectives add kills totalKillCount {"text":"Vítimas:","bold":true,"color":"red"}
 
 #create level
-scoreboard objectives add level level
-scoreboard objectives setdisplay belowName XP
+scoreboard objectives add level level {"text":"Nível:","bold":true,"color":"dark_green"}
 
 #create pearlsUsed
-scoreboard objectives add pearlsUsed minecraft.used:minecraft.ender_pearl
+scoreboard objectives add pearlsUsed minecraft.used:minecraft.ender_pearl {"text":"Pérolas Usadas:","bold":true,"color":"dark_purple"}
 
 #create timePlayed
-scoreboard objectives add hoursPlayed dummy
+scoreboard objectives add hoursPlayed dummy {"text":"Horas Jogadas:","bold":true,"color":"aqua"}
 
 #create ticksPlayed
 scoreboard objectives add ticksPlayed dummy
 
 #create deaths
-scoreboard objectives add deaths deathCount
+scoreboard objectives add deaths deathCount {"text":"Mortes:","bold":true,"color":"dark_red"}
 
 #create brokenThings
-scoreboard objectives add brokenThings dummy
+scoreboard objectives add brokenThings dummy {"text":"Ferramentas Quebradas:","bold":true,"color":"gold"}
 
 scoreboard objectives add brokenT.shovelW minecraft.broken:minecraft.wooden_shovel
 scoreboard objectives add brokenT.shovelS minecraft.broken:minecraft.stone_shovel
@@ -121,8 +120,9 @@ scoreboard objectives add brokenT.bootsN minecraft.broken:minecraft.netherite_bo
 scoreboard objectives add brokenT.bootsC minecraft.broken:minecraft.chainmail_boots
 
 #create health
-scoreboard objectives add health health
+scoreboard objectives add health health {"text":"❤","color":"red"}
 scoreboard objectives setdisplay list health
+scoreboard objectives setdisplay belowName health
 
 #end
 say §ddshy-stats: §a§lHABILITADO
