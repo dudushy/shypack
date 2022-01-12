@@ -63,4 +63,4 @@ scoreboard objectives remove color_white
 team remove white
 
 #end
-say §ddshy-colored_names: §c§lHABILITADO
+say §ddshy-colored_names: §c§lDESABILITADO
