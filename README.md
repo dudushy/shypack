@@ -14,7 +14,7 @@
 1. [Name Tag](#name_tag)
 2. [Lead](#lead)
 3. [Horse Armor](#horse_armor)
-4. [God Apple](#godapple)
+4. [God Apple](#god_apple)
 5. [Bedrock](#bedrock)
 6. [Leather](#leather)
 
@@ -27,6 +27,8 @@
 
 ### Horse Armor
 ![horse_armor](https://i.imgur.com/XSjUJEI.png)
+<br>
+(Iron, Gold and Diamond)
 
 ### God Apple
 ![godapple](https://i.imgur.com/hx6wkMl.png)
