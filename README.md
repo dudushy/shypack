@@ -108,6 +108,7 @@
 <summary>Colored Names</summary>
 
 <br>
+
 Use `/trigger color_COLOR` to change name color.
 <br>
 ![howto](https://i.imgur.com/PDI20QP.png)
