@@ -11,10 +11,10 @@
 <summary>Recipes</summary>
 
 ---
-1. [Name Tag](#name_tag)
+1. [Name Tag](#name-tag)
 2. [Lead](#lead)
-3. [Horse Armor](#horse_armor)
-4. [God Apple](#god_apple)
+3. [Horse Armor](#horse-armor)
+4. [God Apple](#god-apple)
 5. [Bedrock](#bedrock)
 6. [Leather](#leather)
 
@@ -113,19 +113,19 @@ Use `/trigger color_COLOR` to change name color.
 
 ---
 1. [Black](#black)
-2. [Dark Blue](#dark_blue)
-3. [Dark Green](#dark_green)
-4. [Dark Aqua](#dark_aqua)
-5. [Dark Red](#dark_red)
-6. [Dark Purple](#dark_purple)
+2. [Dark Blue](#dark-blue)
+3. [Dark Green](#dark-green)
+4. [Dark Aqua](#dark-aqua)
+5. [Dark Red](#dark-red)
+6. [Dark Purple](#dark-purple)
 7. [Gold](#gold)
 8. [Gray](#gray)
-9. [Dark Gray](#dark_gray)
+9. [Dark Gray](#dark-gray)
 10. [Blue](#blue)
 11. [Green](#green)
 12. [Aqua](#aqua)
 13. [Red](#red)
-14. [Light Purple](#light_purple)
+14. [Light Purple](#light-purple)
 15. [Yellow](#yellow)
 16. [White](#white)
 ---
