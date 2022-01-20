@@ -1,6 +1,7 @@
 {
     "values":[
     "dshy-stats:uninstall",
-    "dshy-colored_names:uninstall"
+    "dshy-colored_names:uninstall",
+    "dshy-spectator:uninstall"
     ]
 }
