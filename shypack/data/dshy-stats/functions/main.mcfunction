@@ -1,7 +1,7 @@
 #switchScoreboard
 scoreboard players add !stats ticksDelay 1
-execute if score !stats ticksDelay matches 1200 run scoreboard players add !stats switchScoreboard 1
-execute if score !stats ticksDelay matches 1200 run scoreboard players set !stats ticksDelay 0
+execute if score !stats ticksDelay matches 400 run scoreboard players add !stats switchScoreboard 1
+execute if score !stats ticksDelay matches 400 run scoreboard players set !stats ticksDelay 0
 
 execute if score !stats switchScoreboard matches 0 run scoreboard objectives setdisplay sidebar oresMined
 execute if score !stats switchScoreboard matches 1 run scoreboard objectives setdisplay sidebar score
