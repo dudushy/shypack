@@ -1,16 +1,24 @@
+#set @e spec_already 0
+execute as @e[tag=!follow] run scoreboard players set @s spec_already 0
+
 #enable follow
-scoreboard players enable @a[scores={spec_follow=0}] spec_follow
+scoreboard players enable @a[gamemode=spectator] spec_follow
 
 #execute follow
-execute as @a[scores={spec_follow=1}] run gamemode spectator @s
-execute as @a[scores={spec_follow=1}] run tag @e[distance=..1,limit=1,scores={spec_follow=0}] add follow
-execute as @a[gamemode=spectator,scores={spec_follow=1}] run spectate @e[tag=follow,limit=1] @s
+tag @a[scores={spec_follow=1},tag=!spec] add spec
+execute as @a[scores={spec_follow=1},tag=spec] run tag @e[distance=..1,limit=1,scores={spec_already=0}] add follow
+execute as @e[tag=follow] run scoreboard players set @s spec_already 1
+execute as @a[scores={spec_follow=1},tag=spec] run scoreboard players set @s spec_follow 0
+
+#spectate
+execute as @a[tag=spec] run gamemode spectator @s
+execute as @a[tag=spec] run spectate @e[tag=follow,limit=1] @s
 
 #enable stop
-scoreboard players enable @a[gamemode=spectator,scores={spec_follow=1}] spec_stop
+scoreboard players enable @a[tag=spec] spec_stop
 
-#stop follow
-execute as @a[scores={spec_follow=1,spec_stop=1}] run tag @e[limit=1,tag=follow] remove follow
-execute as @a[scores={spec_follow=1,spec_stop=1}] run scoreboard players set @s spec_follow 0
-execute as @a[scores={spec_stop=1}] run scoreboard players set @s spec_stop 0
+#stop follow + spectate
+execute as @a[scores={spec_stop=1},tag=spec] run tag @e[tag=follow] remove follow
+execute as @a[scores={spec_stop=1},tag=spec] run tag @s remove spec
+execute as @a[scores={spec_stop=1}] run scoreboard players set @s spec_follow 0
 
