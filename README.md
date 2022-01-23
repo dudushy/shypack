@@ -15,9 +15,8 @@
 2. [Lead](#lead)
 3. [Horse Armor](#horse-armor)
 4. [God Apple](#god-apple)
-5. [Bedrock](#bedrock)
-6. [Leather](#leather)
-7. [Saddle](#saddle)
+5. [Leather](#leather)
+6. [Saddle](#saddle)
 
 ---
 ### Name Tag
@@ -34,8 +33,6 @@
 ### God Apple
 ![godapple](https://i.imgur.com/hx6wkMl.png)
 
-### Bedrock
-![bedrock](https://i.imgur.com/J3gegFA.png)
 
 ### Leather
 ![leather](https://i.imgur.com/T2HUOOi.png)
