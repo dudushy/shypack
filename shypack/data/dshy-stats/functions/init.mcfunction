@@ -38,7 +38,7 @@ scoreboard objectives add kills totalKillCount {"text":"Vítimas:","bold":true,"
 scoreboard objectives add level level {"text":"Nível:","bold":true,"color":"dark_green"}
 
 #create pearlsUsed
-scoreboard objectives add pearlsUsed minecraft.used:minecraft.ender_pearl {"text":"Pérolas Usadas:","bold":true,"color":"dark_purple"}
+scoreboard objectives add pearlsUsed minecraft.used:minecraft.ender_pearl {"text":"Pérolas Jogadas:","bold":true,"color":"dark_purple"}
 
 #create timePlayed
 scoreboard objectives add hoursPlayed dummy {"text":"Horas Jogadas:","bold":true,"color":"aqua"}
