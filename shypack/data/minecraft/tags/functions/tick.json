@@ -1,7 +1,6 @@
 {
   "values":[
 	"dshy-stats:main",
-  "dshy-colored_names:main",
-  "dshy-spectator:main"
+  "dshy-colored_names:main"
   ]
 }

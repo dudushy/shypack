@@ -2,7 +2,6 @@
   "values":[
 	"dshy-stats:init",
   "dshy-recipes:init",
-  "dshy-colored_names:init",
-  "dshy-spectator:init"
+  "dshy-colored_names:init"
   ]
 }
