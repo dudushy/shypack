@@ -6,6 +6,8 @@
 
 > dshy-colored_names
 
+> dshy-announcer
+
 ## Features:
 <details>
 <summary>Recipes</summary>
@@ -180,5 +182,13 @@ Use `/trigger color_COLOR` to change name color.
 
 ### White
 ![white](https://i.imgur.com/VamvNqN.png)
+
+</details>
+
+<details>
+<summary>Announcer</summary>
+
+---
+In every 2  minutes, send a custom message in chat (tellraw). You can add how many messages as you want!
 
 </details>
