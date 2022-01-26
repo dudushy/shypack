@@ -12,7 +12,6 @@ execute if score !stats switchScoreboard matches 5 run scoreboard objectives set
 execute if score !stats switchScoreboard matches 6 run scoreboard objectives setdisplay sidebar deaths
 execute if score !stats switchScoreboard matches 7 run scoreboard objectives setdisplay sidebar brokenThings
 
-#execute if score !stats switchScoreboard matches 8 run tellraw @a ["",{"text":"[","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"discord","color":"blue","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"] ","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"Shyland;","bold":true,"color":"dark_purple","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":" ","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}},{"text":"(clique para entrar)","italic":true,"color":"gray","clickEvent":{"action":"open_url","value":"https://discord.gg/VcnwEFQ"}}]
 execute if score !stats switchScoreboard matches 8 run scoreboard players set !stats switchScoreboard 0
 
 #oresMined
