@@ -1,8 +1,8 @@
 {
   "values":[
-	"dshy-stats:init",
-  "dshy-recipes:init",
-  "dshy-colored_names:init",
-  "dshy-announcer:init"
+    "dshy-stats:init",
+    "dshy-recipes:init",
+    "dshy-colored_names:init",
+    "dshy-announcer:init"
   ]
 }
