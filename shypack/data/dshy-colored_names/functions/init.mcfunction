@@ -1,3 +1,6 @@
+#create color_aux
+scoreboard objectives add color_aux dummy
+
 #create color black #0
 scoreboard objectives add color_black trigger
 team add black
